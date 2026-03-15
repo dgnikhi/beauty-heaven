@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products - Beauty Heaven</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<h1>Beauty Heaven</h1>
+
+<input type="text" id="search" placeholder="Search beauty products..." aria-label="Search products">
+
+</header>
+
+<div class="category-filter">
+<button class="filter-btn active" onclick="filterProducts(null)">All Products</button>
+<button class="filter-btn" onclick="filterProducts('Makeup')">💄 Makeup</button>
+<button class="filter-btn" onclick="filterProducts('Skincare')">🧴 Skincare</button>
+<button class="filter-btn" onclick="filterProducts('Haircare')">💇 Haircare</button>
+<button class="filter-btn" onclick="filterProducts('Fragrance')">🌸 Fragrance</button>
+<button class="filter-btn" onclick="filterProducts('Tools')">🪞 Tools</button>
+</div>
+
+<h2 class="page-title">All Products</h2>
+
+<div id="product-list" class="product-grid"></div>
+
+<script src="js/products.js"></script>
+
+</body>
+</html>

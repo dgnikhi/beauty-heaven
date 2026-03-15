@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beauty Heaven</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">Beauty Heaven</div>
+
+<input type="text" id="search" placeholder="Search beauty products...">
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="wishlist.html">Wishlist</a>
+<a href="cart.html">Cart 🛒</a>
+<a href="login.html">Login</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Glow With Beauty Heaven</h1>
+
+<p>Discover Makeup, Skincare and Beauty Essentials</p>
+
+<button onclick="window.location.href='products.html'">Shop Now</button>
+
+</section>
+
+
+<section class="promotional-banner">
+<div class="promo-content">
+<h2>🎉 SPECIAL OFFER: Get 30% OFF on All Products!</h2>
+<p>Use code: BEAUTY30 at checkout | Limited time only</p>
+<button onclick="window.location.href='products.html'">Shop Now</button>
+</div>
+</section>
+
+<section class="offers">
+<h2>Limited Time Deals</h2>
+<div class="offers-grid">
+<div class="offer-card">
+<div class="discount-badge">-50%</div>
+<img src="images/ima1.jpg" alt="Lipstick Red">
+<h3>Lipstick Red</h3>
+<p class="original-price">$12.99</p>
+<p class="offer-price">$6.49</p>
+<button onclick="window.location.href='products.html'">Buy Now</button>
+</div>
+
+<div class="offer-card">
+<div class="discount-badge">-40%</div>
+<img src="images/ima7.jpg" alt="Perfume Floral">
+<h3>Perfume Floral</h3>
+<p class="original-price">$45.99</p>
+<p class="offer-price">$27.59</p>
+<button onclick="window.location.href='products.html'">Buy Now</button>
+</div>
+
+<div class="offer-card">
+<div class="discount-badge">-35%</div>
+<img src="images/ima3.jpg" alt="Moisturizing Cream">
+<h3>Moisturizing Cream</h3>
+<p class="original-price">$24.99</p>
+<p class="offer-price">$16.24</p>
+<button onclick="window.location.href='products.html'">Buy Now</button>
+</div>
+</div>
+</section>
+
+<section class="categories">
+
+<h2>Shop by Category</h2>
+
+<div class="category-grid">
+
+<div class="category-item" onclick="filterByCategory('Makeup')">💄 Makeup</div>
+<div class="category-item" onclick="filterByCategory('Skincare')">🧴 Skincare</div>
+<div class="category-item" onclick="filterByCategory('Haircare')">💇 Haircare</div>
+<div class="category-item" onclick="filterByCategory('Fragrance')">🌸 Fragrance</div>
+<div class="category-item" onclick="filterByCategory('Tools')">🪞 Tools</div>
+
+</div>
+
+</section>
+
+
+<section class="products">
+
+<h2>Featured Products</h2>
+
+<div id="product-list" class="product-grid"></div>
+
+</section>
+
+
+<section class="reviews">
+
+<h2>Customer Reviews</h2>
+
+<p>"Amazing beauty products!" ⭐⭐⭐⭐⭐</p>
+<p>"Best online beauty store!" ⭐⭐⭐⭐⭐</p>
+
+</section>
+
+
+<footer>
+
+<div class="footer">
+
+<div>
+
+<h3>Beauty Heaven</h3>
+<p>Your beauty destination</p>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+<p>Instagram</p>
+<p>Facebook</p>
+
+</div>
+
+<div>
+
+<h3>Subscribe</h3>
+<input placeholder="Enter email">
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
